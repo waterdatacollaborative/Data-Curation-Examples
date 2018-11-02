@@ -13,7 +13,8 @@ To get an idea of how a Data Package-based data repository looks like, see e.g. 
 
 ## Examples
 
-Some examples/tutorials are given as Jupyter notebook(s).
+Some examples/tutorials are given as Jupyter notebooks.
+The notebooks can be accessed and run interactively thanks to Binder: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/waterdatacollaborative/data-curation-examples/master)
 
 ## Tools
 
