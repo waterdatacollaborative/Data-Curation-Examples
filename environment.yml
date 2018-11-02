@@ -1,0 +1,5 @@
+name: data-curation-examples
+
+dependencies:
+  - python>=3.6
+  - pandas
