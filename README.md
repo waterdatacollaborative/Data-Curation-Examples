@@ -13,8 +13,19 @@ To get an idea of how a Data Package-based data repository looks like, see e.g. 
 
 ## Examples
 
+### Data preparation
+
 Some examples/tutorials are given as Jupyter notebooks.
 The notebooks can be accessed and run interactively thanks to Binder: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/waterdatacollaborative/data-curation-examples/master)
+
+### Data packaging
+
+One important advantage of the Data Package structure is that it can be created incrementally, i.e. starting from a very minimal one, and then adding additional fields at a later point, as described [here](https://frictionlessdata.io/docs/data-package/#datapackage.json).
+
+The Datasets organization on GitHub (<https://github.com/datasets/>) contains many Data Package repositories.
+Any of the `datapackage.json` files (located at the top level of each repository, such as <https://github.com/datasets/gini-index/blob/master/datapackage.json>) can be used as a starting point, e.g. by copying it and then adding, modifying or deleting fields as necessary to match the structure and content of the dataset under preparation.
+
+TODO: add "creating `datapackage.json`" section to Jupyter notebook tutorials.
 
 ## Tools
 
